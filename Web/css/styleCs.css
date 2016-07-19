@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+
+body{
+	 background: url(../images/photo-1443890484047-5eaa67d1d630.jpg) no-repeat;
+    background-attachment: fixed;
+}
+#button-user {
+    top: 5px;
+    position: fixed;
+    z-index: 1000;
+    right: 10px;
+}
+#button-user button {
+	margin-left:0px;
+	top:0px; 
+}
+.header-top {
+    padding-top: 0px;
+    width: 100%;
+    margin: auto;
+    margin: 40px 0px 50px 0px;
+}
+.logo-area {
+    display: inline;
+
+
+}
+.logo-Texte{
+ font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 100%;
+}
+.header-tex {
+    padding-top: 0px;
+    width: 100%;
+    margin: auto;
+    padding-left: 200px;
+     font-size: 100%;
+}
+.menu_items{
+    background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #19e627;
+  font-size: 22px;
+  padding: 8px;
+  text-decoration: none;
+  margin: auto;
+ } 
+.menu_items:hover {
+  background: #f4f6f7;
+  background-image: -webkit-linear-gradient(top, #f4f6f7, #3498db);
+  background-image: -moz-linear-gradient(top, #f4f6f7, #3498db);
+  background-image: -ms-linear-gradient(top, #f4f6f7, #3498db);
+  background-image: -o-linear-gradient(top, #f4f6f7, #3498db);
+  background-image: linear-gradient(to bottom, #f4f6f7, #3498db);
+  text-decoration: none;
+}
+
+
+
+.menu_items i{
+margin: auto;
+padding: 5px;
+}
+.logo-Texte i{
+    color: red;
+    font-size: 100%;
+    cursor :pointer;
+    
+   } 
+.search{
+    margin-top:20px;
+    border-radius: 15px 15px 15px 15px; 
+}
+.recherchePatient{
+    font-size: 100%;
+}
+
+.editer{
+    float: right;
+}
+
+#civilite{
+  width: 550px;
+  margin: auto;
+
+}
+#civilite td {
+  margin-right:10px;
+  margin-left:10px;  
+
+}
+
+.group-label label {
+  margin: 5px 45px 5px 45px;
+}
+
+
+#avatar{
+  float :right;
+  width: 30%;
+}
+
+#avatar img {
+  float: right;
+}
+
+#tableau_bord{
+  background: white;
+  float: right;
+  margin: 20px;
+  padding: 5px;
+  font-size: 100%;
+  text-align: center;
+ }
+
+/*
+  Page d'accueil Medecin
+*/
+#bodyLeft{
+
+  float: left;
+  border-right: 1px solid silver;
+  text-align: center;  
+ }
+
+.bord{
+  border:1px solid silver;
+
+}
+
+#bodyRight{
+  float: right;
+ 
+}
+.civilite h3{
+  text-align: center;
+}
+.item_consul{
+  border-radius: 10px;
+  font-family: Georgia;
+padding: 5px;
+ font-size: 20px;
+
+}
+.item_consul:hover{
+  background: blue;
+  background-image: -webkit-linear-gradient(top, #f4f6f7, #3498db);
+  background-image: -moz-linear-gradient(top, #f4f6f7, #3498db);
+  background-image: -ms-linear-gradient(top, #f4f6f7, #3498db);
+  background-image: -o-linear-gradient(top, #f4f6f7, #3498db);
+  background-image: linear-gradient(to bottom, #f4f6f7, #3498db);
+} 
+
+.btn-consult{
+  margin: 0px 60px; 
+}
+
+.input_consul{
+  margin-top: 30px;
+  float: right;
+}
+.input_consul textarea{
+  width: 200px;
+  height: 60px;
+}
+
+.group_Exam label {
+ margin:5px 15px 5px 15px;
+
+}
+.group_Exam i {
+  color: silver;
+  text-align: center;
+  margin:5px 250px;
+  cursor: pointer;
+}
+.listeChoix .panel-headings{
+text-align: center;
+
+}

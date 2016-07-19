@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<routes>
+	<route url="/" module="Accueil" action="index" />
+	<route url="/Preinscriptions" module="Inscriptions" action="Preinscriptions" />
+	<route url="/sendajaxdata" module="Inscriptions" action="TraitRefAdmin" />
+	<route url="/traitPreinscrip" module="Inscriptions" action="TraitPreinscrip" />
+</routes>
